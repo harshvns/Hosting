@@ -1,0 +1,26 @@
+.carousel-container{
+    background-color: #3b7fbf;
+}
+.page2{
+    background-color: #3b7fbf;
+}
+.heading2p2{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.heading1p2{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.flexp2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
