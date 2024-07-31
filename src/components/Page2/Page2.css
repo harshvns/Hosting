@@ -1,9 +1,3 @@
-.carousel-container{
-    background-color: #3b7fbf;
-    position: relative;
-    margin-left: 60px;
-    margin-right: 60px;
-}
 .Box{
     
     display: flex;
@@ -41,10 +35,6 @@
     flex-direction: row;
 }
 
-.carousel-container {
-    background-color: #3b7fbf;
-    padding: 20px 0;
-  }
   
   .page2 {
     background-color: #3b7fbf;
