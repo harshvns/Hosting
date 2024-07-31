@@ -1,5 +1,13 @@
 .carousel-container{
     background-color: #3b7fbf;
+    position: relative;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.Box{
+    
+    display: flex;
+    flex-direction: column;
 }
 .page2{
     background-color: #3b7fbf;
@@ -18,9 +26,155 @@
     display: flex;
     justify-content: center;
 }
-.flexp2{
+.flex{
     display: flex;
     flex-direction: row;
     justify-content: center;
 
 }
+.reviewbox{
+    background-color: white;
+    margin: 20px;
+}
+.starAlign{
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-container {
+    background-color: #3b7fbf;
+    padding: 20px 0;
+  }
+  
+  .page2 {
+    background-color: #3b7fbf;
+    padding: 40px 0;
+    /* text-align: center; */
+  }
+  
+  .heading2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+  }
+  
+  .heading1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: center;
+    /* gap: 120px; */
+    width: 70%;
+  }
+  
+  .review-box {
+    background-color: white;
+    /* width: 70%; */
+
+    /* margin-left: 60px;
+    margin-right: 60px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .star-align {
+    display: flex;
+    /* justify-content: center; */
+  }
+  
+  .star {
+    margin: 0 2px;
+  }
+  .reviewbox2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .person{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  .slick-prev, .slick-next {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    background: none;
+  }
+  
+  .slick-prev::before, .slick-next::before {
+    font-size: 20px;
+    color: gray;
+  }
+  
+  
+  .slick-prev::before, .slick-next::before {
+    font-size: 20px;
+    color: white;
+  }
+  
+
+  .Boxalign{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    /* margin-left: 90px; */
+  }
+  .boxalign{
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+
+  .carousel-control-prev{
+    margin-right: 30px;
+  }
+  .carousel-control-prev {
+    left: -50px; /* Adjust this value to move the button horizontally */
+  }
+  .carousel-inner {
+    position: relative;
+  }
+  .carousel-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Boxalign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        width: 80%; /* Adjust width as needed */
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .review-box {
+    margin: 10px;
+    width: 85%; /* Adjust width as needed */
+  }
+  
