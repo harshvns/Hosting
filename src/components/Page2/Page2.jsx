@@ -50,7 +50,7 @@ const Page2 = () => {
                     </p>
                   </div>
                 </div>
-                <div className="flex">
+                <div className="flex1">
                   <div className="review-box">
                     <div className="reviewbox2">
                       <div>
@@ -108,7 +108,7 @@ const Page2 = () => {
                     </p>
                   </div>
                 </div>
-                <div className="flex">
+                <div className="flex1">
                   <div className="review-box">
                     <div className="reviewbox2">
                       <div>

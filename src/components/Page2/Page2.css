@@ -26,6 +26,12 @@
     justify-content: center;
 
 }
+.flex1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
 .reviewbox{
     background-color: white;
     margin: 20px;
@@ -62,7 +68,12 @@
     /* gap: 120px; */
     width: 70%;
   }
-  
+  .flex1{
+    display: flex;
+    justify-content: center;
+    /* gap: 120px; */
+    width: 70%;
+  }
   .review-box {
     background-color: white;
     /* width: 70%; */
@@ -162,9 +173,90 @@ align-items: center;
     flex-direction: column;
     align-items: center;
   }
+  .flex1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
   .review-box {
     margin: 10px;
     width: 85%; /* Adjust width as needed */
   }
   
+
+  @media (max-width: 768px) {
+    .heading1p2 {
+        font-size: 24px;
+    }
+
+    .heading2p2 {
+        font-size: 14px;
+    }
+
+    .flex {
+        width: 100%;
+        padding: 0 10px;
+        flex-direction: column;
+    }
+
+    .Boxalign {
+        width: 100%;
+    }
+
+    .review-box {
+        width: 95%;
+        margin: 10px 0;
+    }
+
+    .person {
+        width: 120px;
+        height: 120px;
+    }
+
+    .slick-prev, .slick-next {
+        width: 30px;
+        height: 30px;
+    }
+
+    .slick-prev::before, .slick-next::before {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading1p2 {
+        font-size: 20px;
+    }
+
+    .heading2p2 {
+        font-size: 12px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .Boxalign {
+        width: 100%;
+    }
+
+    .review-box {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .person {
+        width: 100px;
+        height: 100px;
+    }
+
+    .slick-prev, .slick-next {
+        width: 25px;
+        height: 25px;
+    }
+
+    .slick-prev::before, .slick-next::before {
+        font-size: 14px;
+    }
+}
