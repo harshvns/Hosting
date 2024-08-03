@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Page1/>
-      <Page2/>
+      {/* <Page2/>  */}
       <Page3/>
       {/* <Faq/> */}
     </div>
